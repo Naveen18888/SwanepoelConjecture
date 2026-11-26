@@ -15,7 +15,7 @@ sources:
     authors:
       - "Naveen Stewart"
     type: "original-proof"
-    relationship: "formalizes"
+    relationship: "other"
     license: "CC-BY-4.0"
     author_endorsement: "participated"
     
