@@ -3,7 +3,7 @@ version: "v0.4"
 project:
   name: "Swanepoel's Conjecture Full Proof"
   description: >-
-    A formalization of a proof of Swanepoel's Conjecture on Penny Graphs.
+    A formalization of a proof of Swanepoel's Conjecture on Penny Graphs. The conjecture asks for the maximum number of edges in a triangle free penny graph on n vertices. Let this quantity be denoted as f(n). Previous results have shown that f(n) >= floor(2n - 2 square root n). Prior work proved the upper bound f(n) <= floor(2n - 1.65 square root of n). This work both introduces and formalizes a proof that the upper bound is the conjectured floor(2n - 2 square root of n). This proves the stated conjecture unconditionally and affirmatively.
   authors:
     - "Naveen Stewart"
   responsible_maintainers:
