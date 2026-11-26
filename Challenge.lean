@@ -9,6 +9,10 @@ public import Mathlib.Tactic.Positivity
 
 @[expose] public section
 
+/-!
+The full formalization and proof of Swanepoel's Conjecture on Penny Graphs. For any triangle-free penny graph, the maximum number of edges on n vertices is 2n - 2 square root of n, taking the floor function of this value as necessary. This value is achieved by some penny graph for all numbers of vertices.
+-/
+
 noncomputable section
 namespace Swanepoel
 
