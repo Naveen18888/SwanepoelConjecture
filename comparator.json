@@ -2,7 +2,6 @@
   "challenge_module": "Challenge",
   "solution_module": "Solution",
   "theorem_names": [
-    "Swanepoel.swanepoel",
     "Swanepoel.maximum_edges"
   ],
   "definition_names": [],
