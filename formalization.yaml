@@ -1,16 +1,7 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
-# formalization.yaml (v0.4): repo-root metadata for formalization projects.
-# Requiredness/conformance:
-#   - Fields marked [required] should be present and filled.
-#   - Fields not marked [required] are examples/recommended metadata only; they may be omitted.
-#   - Projects may add extra YAML keys at any level. Readers should tolerate unknown keys.
-# This is a lightweight reporting schema, not a closed validation schema.
-
 version: "v0.4"
 
-# project - the formalization itself (not the source).
 project:
-  name: "Swanepoel's Conjecture Full Proof"                     # [required]
+  name: "Swanepoel's Conjecture Full Proof"
   description: >-
     A formalization of a proof of Swanepoel's Conjecture on Penny Graphs.
   authors:
@@ -19,18 +10,8 @@ project:
     - "Naveen Stewart"
   license: "Apache-2.0"
 
-# This repository is the substantive development by default. If it is only a
-# packaging or comparison layer, uncomment and identify the actual formalization.
-# repository:
-#   substantive_formalization:
-#     id: ""                   # repository URL or another stable identifier
-#     revision: ""             # immutable commit/revision when available
-
-# sources - what was formalized. Sources may be articles, books, web posts,
-# folklore, conversations, or anything else; no arXiv record is assumed. For a
-# theorem first presented by this formalization, use type: "original-proof".
-sources:                       # [required] list of sources or an original proof
-  - title: "Swanepoel's Conjecture Full Proof"                  # [required per source] title or short description
+sources:
+  - title: "Swanepoel's Conjecture Full Proof"
     authors:
       - "Naveen Stewart"
     type: "original-proof"
@@ -64,23 +45,21 @@ automation:
       prompting_notes: "n/a"
   spend_usd: "not tracked"
 
-# fidelity
 fidelity:
   divergences: "none known"
 
-# review status
 review:
   status: "self-assessed"
   reviewers: []
   notes: "Compiled the proof independently"
 
 alignment:
-  namespace: ""
+  namespace: "Swanepoel"
   statements:
-    - source: ""               # source theorem/lemma/definition/section
-      lean: ""                 # corresponding Lean declaration
-      module: ""               # corresponding Lean module/file
-      status: ""               # proved | literature-dependency | in-progress | not-formalized | other/freeform
-      note: ""
+    - source: "Theorem 1.1"
+      lean: "Swanepoel.swanepoel"
+      module: "Solution"
+      status: "proved"
+      note: "Full Proof"
 
 acknowledgements: []
