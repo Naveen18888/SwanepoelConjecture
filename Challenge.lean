@@ -45,11 +45,11 @@ def Sharpness : Prop :=
 
 def SwanepoelConjecture : Prop := UpperBound ∧ Sharpness
 
-end Swanepoel
-
 theorem maximum_edges (n : ℕ) (hn : 1 ≤ n) :
     (∀ G : PennyGraph n,
       G.TriangleFree → (G.edgeCount : ℤ) ≤ extremalValue n) ∧
     (∃ G : PennyGraph n,
       G.TriangleFree ∧ (G.edgeCount : ℤ) = extremalValue n) := by
   sorry
+
+end Swanepoel
