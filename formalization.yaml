@@ -3,7 +3,7 @@ version: "v0.4"
 project:
   name: "Swanepoel's Conjecture Full Proof"
   description: >-
-    A formalization of a proof of Swanepoel's Conjecture on Penny Graphs. The conjecture asks for the maximum number of edges in a triangle-free penny graph on n vertices. Let this quantity be denoted as f(n). Previous results have shown that f(n) >= floor(2n - 2 square root n). Prior work proved the approximate upper bound f(n) <= floor(2n - 1.65 square root of n). This work both introduces and formalizes a proof that the upper bound is the conjectured floor(2n - 2 square root of n). This result proves the stated conjecture unconditionally and affirmatively.
+    A formalization of a proof of Swanepoel's Conjecture on Penny Graphs. The conjecture asks for the maximum number of edges in a triangle-free penny graph on n vertices. Let this quantity be denoted as f(n). Previous results have shown that f(n) >= floor(2n - 2 square root n). Prior work proved the approximate upper bound f(n) <= floor(2n - 1.65 square root of n). This work formalizes a proof that the upper bound is the conjectured floor(2n - 2 square root of n). This result proves the stated conjecture unconditionally and affirmatively.
   authors:
     - "Naveen Stewart"
   responsible_maintainers:
@@ -18,6 +18,26 @@ sources:
     relationship: "other"
     license: "CC-BY-4.0"
     author_endorsement: "participated"
+    notes: >-
+      The manuscript is unpublished and shares the same author as the creator of this repository. No preprint is available. Theorem 1.1 corresponds to Swanepoel.maximum_edges which states the conjectured upper bound and its proof. While the manuscript presents a proof, it does not claim novelty on solving the problem. However, this does not imply that the manuscript is not the first to solve the conjecture. Adequate individual literature review are necessary for that claim; this result does prove the conjecture, regardless of novelty.
+  - title: "Triangle-free minimum distance graphs in the plane"
+    authors:
+      - "Konrad J. Swanepoel"
+    id: "https://personal.lse.ac.uk/swanepoe/swanepoel-min-dist.pdf"
+    type: paper
+    location: "Geombinatorics 19 (2009)"
+    relationship: background
+    notes: >-
+      Introduces the conjecured maximum. Notes that the minimum is achievable. Establishes the conjecture as an open problem.
+  - title: "Edge Bounds and Degeneracy of Triangle-Free Penny Graphs and Squaregraphs"
+    authors:
+      - "David Eppstein"
+    id: "https://jgaa.info/index.php/jgaa/article/view/paper463"
+    type: paper
+    location: "Journal of Graph Theory and Applications"
+    relationship: background
+    notes: >-
+      Establishes the 2n - 1.65 square root of n upper bound. The paper notes that the general conjecture remains open at the time of its writing.
     
 classification:
   arxiv: ["math.CO"]
