@@ -19,7 +19,7 @@ sources:
     license: "CC-BY-4.0"
     author_endorsement: "participated"
     notes: >-
-      The manuscript is unpublished and shares the same author as the creator of this repository. No preprint is available. Theorem 1.1 corresponds to Swanepoel.maximum_edges which states the conjectured upper bound and its proof. Adequate individual literature review may be necessary for verifying novelty of the manuscript's conclusions; this result does prove the conjecture, regardless of novelty. This manuscript provides the proof that is being formalized. It is the original source of that specific proof, this is its formalization made public. Therefore, the manuscript's novelty claim precedes that of this formalization.
+      The manuscript is unpublished and shares the same author as the creator of this repository. No preprint is available. Theorem 1.1 corresponds to Swanepoel.maximum_edges which states the conjectured upper bound and its proof. Adequate individual literature review may be necessary for verifying novelty of the manuscript's conclusions; this result does prove the conjecture, regardless of novelty. This manuscript provides the proof that is being formalized. It is the original source of that specific proof, this is its formalization made public. As a result, the manuscript's novelty claim precedes that of this formalization.
   - title: "Triangle-free minimum distance graphs in the plane"
     authors:
       - "Konrad J. Swanepoel"
